@@ -102,8 +102,8 @@ export const HeroParallaxMobileComponent = ({
 export const Header = () => {
 	return (
 		<div className="max-w-7xl relative mx-auto py-16 md:py-40 px-4 w-full  left-0 top-0 z-[999]">
-			<h1 className="text-[3rem] md:text-7xl font-bold dark:text-white chakra">
-				Deorum <br /> Boxing
+			<h1 className="text-[4rem] md:text-7xl font-bold dark:text-white chakra heading-maybe">
+				Deorum Boxing
 			</h1>
 			<p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
 				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum odit

@@ -34,4 +34,10 @@ body {
 
 .chakra {
 	font-family: "Chakra Petch";
+	font-weight: 900;
+}
+
+.heading-maybe {
+	-webkit-text-stroke: 1px rgb(180, 151, 36);
+	text-stroke: 1px rgb(180, 151, 36);
 }
