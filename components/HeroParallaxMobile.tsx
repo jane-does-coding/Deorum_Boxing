@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
-import { HeroParallax } from "./ui/hero-parallax";
+import { HeroParallaxMobileComponent } from "./ui/hero-parallax-mobile";
 
-export function HeroParallaxDemo() {
-	return <HeroParallax products={products} />;
+export function HeroParallaxMobile() {
+	return <HeroParallaxMobileComponent products={products} />;
 }
 export const products = [
 	/* First Row */
