@@ -1,3 +1,4 @@
+import { Globe } from "@/components/BentoGrid";
 import { HeroParallaxDemo } from "@/components/HeroParallax";
 import { HeroParallaxMobile } from "@/components/HeroParallaxMobile";
 import Image from "next/image";
@@ -15,6 +16,9 @@ export default function Home() {
 				<br />
 				<br />
 			</div>
+			<br />
+			<br />
+			<br />
 		</div>
 	);
 }

@@ -49,7 +49,7 @@ export const HeroParallaxMobileComponent = ({
 		springConfig
 	);
 	const translateY = useSpring(
-		useTransform(scrollYProgress, [0, 0.2], [-500, 150]),
+		useTransform(scrollYProgress, [0, 0.2], [-600, 150]),
 		springConfig
 	);
 	return (
