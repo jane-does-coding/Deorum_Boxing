@@ -7,8 +7,12 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
 	title: "Deorum Boxing",
-	description: "Deorum Boxing",
+	description:
+		"Discover the best boxing lessons with us. At Deorum Boxing, we offer a variety of classes for all skill levels. Easily find and book the perfect class that fits your schedule. Stay updated with our latest class schedules, and never miss a session. Join us today and start your journey to becoming a better boxer!",
 	robots: "index,follow",
+	applicationName: "Boxing",
+	keywords:
+		"boxing lessons, boxing classes, boxing training, beginner boxing, advanced boxing, boxing workout, fitness boxing, boxing schedule, boxing sessions, boxing gym, boxing for kids, boxing for women, personal boxing coach, boxing techniques, boxing drills, boxing programs, boxing exercises, boxing fitness, boxing sparring, boxing fundamentals",
 };
 
 export default function RootLayout({

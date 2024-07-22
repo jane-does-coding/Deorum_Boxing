@@ -106,8 +106,8 @@ export const Header = () => {
 				Deorum Boxing
 			</h1>
 			<p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
-				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum odit
-				ducimus aut sunt doloremque consequuntur.
+				Find and book boxing lessons easily. Check our latest class schedules
+				and start your boxing journey today!
 			</p>
 		</div>
 	);

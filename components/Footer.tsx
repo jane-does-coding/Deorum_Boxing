@@ -13,7 +13,10 @@ const Footer = () => {
 				<a href="" className="text-neutral-300 chakra">
 					Gallery
 				</a>
-				<a href="" className="text-neutral-300 chakra">
+				<a
+					href="https://www.instagram.com/deorumboxing"
+					className="text-neutral-300 chakra"
+				>
 					Instagram
 				</a>
 			</div>

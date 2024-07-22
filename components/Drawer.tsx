@@ -58,7 +58,10 @@ export function DrawerDemo() {
 							</a>
 						</div>
 						<div className="flex items-center justify-between border-t-[1px] border-neutral-800 pt-12 px-4">
-							<a href="" className="flex gap-2 items-center justify-center">
+							<a
+								href="https://www.instagram.com/deorumboxing"
+								className="flex gap-2 items-center justify-center"
+							>
 								<FiInstagram size={24} />
 								Instagram
 							</a>
