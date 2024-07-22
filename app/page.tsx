@@ -1,3 +1,4 @@
+import { DrawerDemo } from "@/components/Drawer";
 import { HeroParallaxDemo } from "@/components/HeroParallax";
 import { HeroParallaxMobile } from "@/components/HeroParallaxMobile";
 import { FeaturesSectionDemo } from "@/components/Hmm";
@@ -17,6 +18,7 @@ export default function Home() {
 			</div>
 			<MoreInfo />
 			<br />
+			<DrawerDemo />
 		</div>
 	);
 }
