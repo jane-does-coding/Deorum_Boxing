@@ -3,6 +3,9 @@ import React from "react";
 const Gallery = () => {
 	return (
 		<div className="flex flex-col px-4 py-6 gap-4">
+			<h1 className="text-[2rem] chakra mx-auto flex items-center justify-center">
+				Gallery
+			</h1>
 			<img src="/group1.JPG" className="w-full rounded-[0.5rem]" alt="" />
 			<img src="/group2.JPG" className="w-full rounded-[0.5rem]" alt="" />
 			<img src="/group3.JPG" className="w-full rounded-[0.5rem]" alt="" />

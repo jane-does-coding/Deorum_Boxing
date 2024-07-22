@@ -1,6 +1,7 @@
 import { HeroParallaxDemo } from "@/components/HeroParallax";
 import { HeroParallaxMobile } from "@/components/HeroParallaxMobile";
 import { FeaturesSectionDemo } from "@/components/Hmm";
+import MoreInfo from "@/components/MoreInfo";
 import Image from "next/image";
 
 export default function Home() {
@@ -8,16 +9,12 @@ export default function Home() {
 		<div className="">
 			<div className="flex md:hidden ">
 				<HeroParallaxMobile />
-				<br />
-				<br />
 			</div>
 			<div className="hidden md:flex">
 				<HeroParallaxDemo />
 				<br />
 				<br />
 			</div>
-			<br />
-			<br />
 			<MoreInfo />
 			<br />
 		</div>
