@@ -25,7 +25,7 @@ export default function RootLayout({
 					rel="stylesheet"
 				></link>
 			</head>
-			<body className={inter.className}>
+			<body className={`dark ${inter.className}`}>
 				{children}
 				<Footer />
 			</body>

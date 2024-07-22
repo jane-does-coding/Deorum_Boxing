@@ -1,6 +1,6 @@
 "use client";
-import React from "react";
-import { motion } from "framer-motion";
+import React, { useRef } from "react";
+import { motion, useInView } from "framer-motion";
 
 const MoreInfo = () => {
 	const fadeInUp = {
@@ -8,34 +8,49 @@ const MoreInfo = () => {
 		visible: { opacity: 1, y: 0 },
 	};
 
+	const ref1 = useRef(null);
+	const ref2 = useRef(null);
+	const ref3 = useRef(null);
+	const ref4 = useRef(null);
+	const ref5 = useRef(null);
+
+	const inView1 = useInView(ref1);
+	const inView2 = useInView(ref2);
+	const inView3 = useInView(ref3);
+	const inView4 = useInView(ref4);
+	const inView5 = useInView(ref5);
+
 	return (
 		<div>
 			<div className="w-full flex flex-col">
 				<motion.h1
+					ref={ref1}
 					className="text-[1.75rem] chakra font-light px-4 text-center flex items-center justify-center"
 					initial="hidden"
-					animate="visible"
+					animate={inView1 ? "visible" : "hidden"}
 					variants={fadeInUp}
 					transition={{ duration: 0.5 }}
 				>
 					Lorem ipsum dolor.
 				</motion.h1>
 				<motion.h2
+					ref={ref2}
 					className="px-6 text-center text-[0.9rem] text-neutral-400"
 					initial="hidden"
-					animate="visible"
+					animate={inView2 ? "visible" : "hidden"}
 					variants={fadeInUp}
-					transition={{ duration: 0.5, delay: 0.1 }}
+					transition={{ duration: 0.4, delay: 0.1 }}
 				>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla,
 					inventore.
 				</motion.h2>
 				<motion.div
+					ref={ref3}
 					className="border-t-[1px] border-neutral-800 w-full mt-8 pt-6 px-6"
 					initial="hidden"
-					animate="visible"
+					animate={inView3 ? "visible" : "hidden"}
 					variants={fadeInUp}
-					transition={{ duration: 0.5, delay: 0.2 }}
+					transition={{ duration: 0.4, delay: 0.2 }}
 				>
 					<img
 						src="/smallgroup5.JPG"
@@ -55,11 +70,12 @@ const MoreInfo = () => {
 					</a>
 				</motion.div>
 				<motion.div
+					ref={ref4}
 					className="border-t-[1px] border-neutral-800 w-full mt-8 pt-6 px-6"
 					initial="hidden"
-					animate="visible"
+					animate={inView4 ? "visible" : "hidden"}
 					variants={fadeInUp}
-					transition={{ duration: 0.5, delay: 0.3 }}
+					transition={{ duration: 0.4, delay: 0.4 }}
 				>
 					<img
 						src="/smallgroup1.JPG"
@@ -79,11 +95,12 @@ const MoreInfo = () => {
 					</a>
 				</motion.div>
 				<motion.div
+					ref={ref5}
 					className="border-t-[1px] border-neutral-800 w-full mt-8 pt-6 px-6"
 					initial="hidden"
-					animate="visible"
+					animate={inView5 ? "visible" : "hidden"}
 					variants={fadeInUp}
-					transition={{ duration: 0.5, delay: 0.4 }}
+					transition={{ duration: 0.4, delay: 0.4 }}
 				>
 					<img
 						src="/room2.JPG"
