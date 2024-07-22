@@ -1,6 +1,8 @@
 "use client";
 import * as React from "react";
 import { Minus, Plus } from "lucide-react";
+import { FiInstagram } from "react-icons/fi";
+import { FaSquareFacebook } from "react-icons/fa6";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -34,7 +36,7 @@ export function DrawerDemo() {
 							Deorum Boxing
 						</DrawerTitle>
 					</DrawerHeader>
-					<div className="p-3 px-6 pb-8 flex flex-col gap-8">
+					<div className="p-3 px-6 pb-6 flex flex-col">
 						<div className="flex flex-col">
 							<a
 								href=""
@@ -55,12 +57,18 @@ export function DrawerDemo() {
 								Gallery
 							</a>
 						</div>
-						<div className="flex items-center justify-between">
-							<a href="">Instagram</a>
-							<a href="">Facebook</a>
+						<div className="flex items-center justify-between border-t-[1px] border-neutral-800 pt-12 px-4">
+							<a href="" className="flex gap-2 items-center justify-center">
+								<FiInstagram size={24} />
+								Instagram
+							</a>
+							<a href="" className="flex gap-2 items-center justify-center">
+								<FaSquareFacebook size={24} />
+								Facebook
+							</a>
 						</div>
 					</div>
-					<DrawerFooter>
+					<DrawerFooter className="pb-8">
 						<DrawerClose asChild>
 							<Button variant="outline">Close</Button>
 						</DrawerClose>
