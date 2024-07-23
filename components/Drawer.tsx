@@ -3,6 +3,7 @@ import * as React from "react";
 import { Minus, Plus } from "lucide-react";
 import { FiInstagram } from "react-icons/fi";
 import { FaSquareFacebook } from "react-icons/fa6";
+import { IoMdMenu } from "react-icons/io";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -26,13 +27,18 @@ export function DrawerDemo() {
 	return (
 		<Drawer>
 			<DrawerTrigger asChild>
-				<Button variant="outline">Open Drawer</Button>
+				<Button
+					className="bg-transparent p-0 border-none outline-none ring-0"
+					variant="outline"
+				>
+					<IoMdMenu size={28} />
+				</Button>
 			</DrawerTrigger>
 			<DrawerContent>
 				<div className="mx-auto w-full max-w-sm">
 					<DrawerHeader>
-						<DrawerTitle className="flex items-center justify-center gap-4 text-[1.75rem] chakra">
-							<img src="/logo1.png" className="w-[4.5rem]" alt="" />
+						<DrawerTitle className="flex items-center justify-center gap-4 text-[1.75rem] chakra py-8">
+							<img src="/image.png" className="w-[4.5rem]" alt="" />
 							Deorum Boxing
 						</DrawerTitle>
 					</DrawerHeader>
@@ -65,7 +71,10 @@ export function DrawerDemo() {
 								<FiInstagram size={24} />
 								Instagram
 							</a>
-							<a href="" className="flex gap-2 items-center justify-center">
+							<a
+								href="https://www.facebook.com/people/Deorum-Boxing/100039183384208/"
+								className="flex gap-2 items-center justify-center"
+							>
 								<FaSquareFacebook size={24} />
 								Facebook
 							</a>

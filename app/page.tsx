@@ -18,7 +18,6 @@ export default function Home() {
 			</div>
 			<MoreInfo />
 			<br />
-			<DrawerDemo />
 		</div>
 	);
 }
