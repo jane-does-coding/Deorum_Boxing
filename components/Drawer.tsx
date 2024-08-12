@@ -45,19 +45,19 @@ export function DrawerDemo() {
 					<div className="p-3 px-6 pb-6 flex flex-col">
 						<div className="flex flex-col">
 							<a
-								href=""
+								href="/schedule"
 								className="text-[1.15rem] pb-2 border-b-[1px] border-neutral-800"
 							>
 								Schedule
 							</a>
 							<a
-								href=""
+								href="/coaches"
 								className="text-[1.15rem] pt-2 pb-2 border-b-[1px] border-neutral-800"
 							>
 								About Coaches
 							</a>
 							<a
-								href=""
+								href="/gallery"
 								className="text-[1.15rem] pb-2 pt-2 border-b-[0px] border-neutral-800"
 							>
 								Gallery

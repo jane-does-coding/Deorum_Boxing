@@ -61,7 +61,7 @@ const MoreInfo = () => {
 						Discover available times and and which lessons are available when.
 					</p>
 					<a
-						href="/gallery"
+						href="/schedule"
 						className="py-1 mt-4 bg-neutral-900 relative flex items-center justify-center rounded-full w-full chakra"
 					>
 						View Times
@@ -86,7 +86,7 @@ const MoreInfo = () => {
 						you achive more!
 					</p>
 					<a
-						href="/gallery"
+						href="/coaches"
 						className="py-1 mt-4 bg-neutral-900 relative flex items-center justify-center rounded-full w-full chakra"
 					>
 						Learn More!

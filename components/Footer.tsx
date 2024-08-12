@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
 	return (
-		<div className="w-full px-4 py-3 bg-neutral-900 flex items-center justify-between">
+		<div className="w-full px-4 py-3 bg-neutral-900 flex items-center justify-between mt-4">
 			<a href="/">
 				<img src="/image.png" className="w-[4rem]" alt="" />
 			</a>
