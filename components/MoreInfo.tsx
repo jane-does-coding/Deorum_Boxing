@@ -79,7 +79,7 @@ const MoreInfo = () => {
 						<img
 							src="/smallgroup1.JPG"
 							alt=""
-							className="rounded-[0.25rem] w-full aspect-[3/2] object-cover"
+							className="rounded-[0.25rem] w-full aspect-[3/2] md:aspect-[1] object-cover"
 						/>
 						<h2 className="mt-4 chakra text-[1.15rem]">Meet our coaches</h2>
 						<p className="text-[0.8rem] text-neutral-300">
@@ -104,7 +104,7 @@ const MoreInfo = () => {
 						<img
 							src="/room2.JPG"
 							alt=""
-							className="rounded-[0.25rem] w-full aspect-[3/2] object-cover"
+							className="rounded-[0.25rem] w-full aspect-[3/2] md:aspect-[1] object-cover"
 						/>
 						<h2 className="mt-4 chakra text-[1.15rem]">Our gym</h2>
 						<p className="text-[0.8rem] text-neutral-300">
