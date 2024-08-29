@@ -22,7 +22,7 @@ const MoreInfo = () => {
 
 	return (
 		<div>
-			<div className="w-full">
+			<div className="w-full mt-16">
 				<motion.h1
 					ref={ref1}
 					className="text-[1.75rem] chakra font-light px-4 text-center flex items-center justify-center"

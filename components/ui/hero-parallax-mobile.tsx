@@ -102,13 +102,40 @@ export const HeroParallaxMobileComponent = ({
 export const Header = () => {
 	return (
 		<div className="max-w-7xl relative mx-auto py-16 md:py-40 px-4 w-full  left-0 top-0 z-[999]">
-			<h1 className="text-[4rem] md:text-7xl font-bold dark:text-white chakra">
-				Deorum Boxing
+			<h1 className="text-[4rem] md:text-5xl leading-[5rem] font-bold dark:text-white chakra">
+				Deorum Boxing & Fitness
 			</h1>
-			<p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
-				Find and book boxing lessons easily. Check our latest class schedules
-				and start your boxing journey today!
-			</p>
+			<div className="max-w-2xl text-[1.3rem] chakra md:text-2xl mt-8 dark:text-neutral-200">
+				<div className="w-full flex justify-center items-center gap-3 mb-2">
+					<div className="w-full h-[1px] bg-white"></div>
+					Building
+					<div className="w-full h-[1px] bg-white"></div>
+				</div>
+				<div className="flex flex-col gap-2 items-center justify-center">
+					<div className="w-[43vw] flex justify-center items-center gap-3">
+						<div className="w-full h-[1px] bg-white"></div>
+						Confidence
+						<div className="w-full h-[1px] bg-white"></div>
+					</div>
+					<div className="w-[50vw] flex justify-center items-center gap-3">
+						<div className="w-full h-[1px] bg-white"></div>
+						Character
+						<div className="w-full h-[1px] bg-white"></div>
+					</div>
+					<div className="w-[60vw] flex justify-center items-center gap-3">
+						<div className="w-full h-[1px] bg-white"></div>
+						Champions
+						<div className="w-full h-[1px] bg-white"></div>
+					</div>
+					{/* <p>Character</p>
+					<p>Champions</p> */}
+				</div>
+				{/* Confidence
+				<br />
+				Character
+				<br />
+				Champions */}
+			</div>
 		</div>
 	);
 };
@@ -128,15 +155,12 @@ export const ProductCard = ({
 			style={{
 				x: translate,
 			}}
-			whileHover={{
-				y: -20,
-			}}
 			key={product.title}
 			className="group/product h-[15rem] w-[15rem] relative flex-shrink-0 rounded-[0.5rem]"
 		>
 			<div
 				/* 				href={product.link}
-				 */ className="block group-hover/product:shadow-2xl rounded-[0.5rem]"
+				 */ className="block  rounded-[0.5rem]"
 			>
 				<Image
 					src={product.thumbnail}
@@ -146,10 +170,10 @@ export const ProductCard = ({
 					alt={product.title}
 				/>
 			</div>
-			<div className="absolute inset-0 h-full w-full opacity-0 group-hover/product:opacity-80 bg-black pointer-events-none"></div>
-			<h2 className="absolute bottom-4 left-4 opacity-0 group-hover/product:opacity-100 text-white">
+			<div className="absolute inset-0 h-full w-full opacity-0  bg-black pointer-events-none"></div>
+			{/* <h2 className="absolute bottom-4 left-4 opacity-0  text-white">
 				{product.title}
-			</h2>
+			</h2> */}
 		</motion.div>
 	);
 };

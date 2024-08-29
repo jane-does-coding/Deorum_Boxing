@@ -11,7 +11,7 @@ export default function Home() {
 			<div className="flex md:hidden ">
 				<HeroParallaxMobile />
 			</div>
-			<div className="hidden md:flex">
+			<div className="hidden md:flex mb-12">
 				<HeroParallaxDemo />
 				<br />
 				<br />

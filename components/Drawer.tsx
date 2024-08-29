@@ -54,11 +54,17 @@ export function DrawerDemo() {
 								href="/coaches"
 								className="text-[1.15rem] pt-2 pb-2 border-b-[1px] border-neutral-800"
 							>
-								About Coaches
+								Boxing Coaches
+							</a>
+							<a
+								href="/personal-trainers"
+								className="text-[1.15rem] pb-2 pt-2 border-b-[1px] border-neutral-800"
+							>
+								Personal Trainers
 							</a>
 							<a
 								href="/gallery"
-								className="text-[1.15rem] pb-2 pt-2 border-b-[0px] border-neutral-800"
+								className="text-[1.15rem] pb-2 pt-2 border-b-[1px] border-neutral-800"
 							>
 								Gallery
 							</a>
