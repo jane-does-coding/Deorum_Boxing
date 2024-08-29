@@ -12,7 +12,7 @@ A website for a boxing community
 
 ## Demo
 
-[Deorum Boxing - Live Demo](/deorum-boxing.vercel.app)
+[Deorum Boxing - Live Demo]([/deorum-boxing.vercel.app](https://deorum-boxing.vercel.app/))
 
 ## Run Locally
 
